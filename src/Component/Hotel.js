@@ -1,12 +1,7 @@
 import { FaThumbsUp } from "react-icons/fa";
 import Question from "./Suncomponent/question";
 import Btmes from "./Suncomponent/bt-messenger";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
-AOS.init({
-  duration: 2000,
-});
 
 const Hotel = () => (
   <div>

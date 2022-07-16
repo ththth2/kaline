@@ -8,9 +8,9 @@ const Navbar = () => {
     <div>
       <header className="px-2 bg-black bg-opacity-50 fixed flex flex-wrap items-center lg:py-0 py-2 w-full z-position">
         <div className="flex-1 flex justify-between items-center">
-          <a href="#">
-            <img className=" w-24 h-fit " src={logonav} alt="" />
-          </a>
+          <p>
+            <Link to="/"><img className=" w-24 h-fit " src={logonav} alt="" /></Link>
+          </p>
         </div>
         <label htmlFor="menu-toggle" className="pointer-cursor xl:hidden block">
           <svg
@@ -35,7 +35,7 @@ const Navbar = () => {
                 <Link to="/">หน้าแรก</Link>
               </li>
               <li className="pb-4 lg:mb-2">
-                <Link to="/insert">เกี่ยวกับเรา</Link>
+                <Link to="/about">เกี่ยวกับเรา</Link>
               </li>
               <li className="pb-4 lg:mb-2">
                 <Link to="">สินค้าและบริการ</Link>

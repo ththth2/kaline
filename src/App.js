@@ -15,18 +15,22 @@ import Map from "./Component/Map"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import ScrollToTop from "./Component/scrollToTop";
 
 AOS.init({
   duration: 2000,
 });
 
 function App() {
+  
   return (
     <Router>
+      <ScrollToTop />
       <div>
         <Navbar />
         <Routes>
           <Route
+          
             path="/"
             element={
               <>
@@ -44,7 +48,7 @@ function App() {
             }
           ></Route>
           <Route
-            path="/insert"
+            path="/about"
             element={
               <>
                 <Main />

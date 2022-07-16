@@ -20,7 +20,7 @@ const Service = () => (
             size: "7rem",
           }}
         >
-          <div className="w-full flex justify-center">
+          <div data-aos="fade-up" className="w-full flex justify-center">
             <div className="w-1/4 flex justify-center grid">
               <div className="w-fit h-fit border-4 rounded-full border-gray-400 p-8">
                 <Plane />
@@ -35,7 +35,7 @@ const Service = () => (
               </div>
             </div>
           </div>
-          <div className="w-full flex justify-center">
+          <div data-aos="fade-up" className="w-full flex justify-center">
             <div className="w-1/4 flex justify-center grid">
               <div className="w-fit h-fit border-4 rounded-full border-gray-400 p-8">
                 <Hotelsub />
@@ -48,7 +48,7 @@ const Service = () => (
               </div>
             </div>
           </div>
-          <div className="w-full flex justify-center">
+          <div data-aos="fade-up" className="w-full flex justify-center">
             <div className="w-1/4 flex justify-center grid">
               <div className="w-fit h-fit border-4 rounded-full border-gray-400 p-8">
                 <ShieldCrossLine />
@@ -61,7 +61,7 @@ const Service = () => (
               </div>
             </div>
           </div>
-          <div className="w-full flex justify-center">
+          <div data-aos="fade-up" className="w-full flex justify-center">
             <div className="w-1/4 flex justify-center grid">
               <div className="w-fit h-fit border-4 rounded-full border-gray-400 p-8">
                 <Passport />

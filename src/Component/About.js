@@ -28,8 +28,8 @@ const About = () => (
       <div className="mx-auto">
         <img className=" w-fit h-40" src={logo} alt="" />
       </div>
-      <div className="w-screen">
-          <div className="text-xl mt-4 w-screen">
+      <div className="w-full">
+          <div className="text-xl mt-4 w-full">
             <div className="flex justify-center">
               "คาร์ไลล์ ทาโคน" ก่อตั้งขึ้นในปี พ.ศ. 2565 โดยการบริหารงานของ บริษัท
               ทาโคน เทรดดิง จํากัด

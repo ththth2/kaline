@@ -12,7 +12,7 @@ const Btmes = () => (
             size: "4em",
           }}
         >
-          <Button>
+          <Button type="text">
             <FaFacebookMessenger />
           </Button>
         </IconContext.Provider>

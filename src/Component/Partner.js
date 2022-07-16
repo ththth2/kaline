@@ -1,4 +1,8 @@
-const Partner = () => (
+
+const Partner = () =>{
+
+
+  return (
   <div>
     <div className="mt-10 mx-8 h-auto w-auto border-y-4 border-gray-400">
       <div className="mt-10 flex justify-center">
@@ -6,7 +10,7 @@ const Partner = () => (
       </div>
 
       <div className="columns-1 md:columns-2 md:flex md:justify-center grid mt-10 w-full">
-        <div className="flex h-fit flex justify-around w-full">
+        <div data-aos="fade-up" className="flex h-fit flex justify-around w-full">
           <div className="h-full grid content-center">
             <img
               className="w-12 sm:w-32 h-auto mx-auto"
@@ -36,7 +40,7 @@ const Partner = () => (
             />
           </div>
         </div>
-        <div className="flex sm:mt-0 mt-4 flex justify-around w-full h-fit">
+        <div data-aos="fade-up" className="flex sm:mt-0 mt-4 flex justify-around w-full h-fit">
           <div className="grid content-center">
             <img
               className="w-12 sm:w-32 h-auto mx-auto"
@@ -75,7 +79,7 @@ const Partner = () => (
         </div>
       </div>
       <div className="columns-2 sm:columns-1 grid md:flex md:justify-center my-10">
-        <div className=" flex justify-around w-full">
+        <div data-aos="fade-up" className=" flex justify-around w-full">
           <div className="h-full grid content-center">
             <img
               className="md:w-32 xl:w-60 w-16"
@@ -98,7 +102,7 @@ const Partner = () => (
             />
           </div>
         </div>
-        <div className="flex justify-around w-full">
+        <div data-aos="fade-up" className="flex justify-around w-full">
           <div className="h-full grid content-center">
             <img
               className="md:w-32 xl:w-60 w-16"
@@ -131,6 +135,6 @@ const Partner = () => (
       </div>
     </div>
   </div>
-);
+)};
 
 export default Partner;

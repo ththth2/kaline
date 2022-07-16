@@ -16,7 +16,7 @@ const Navbar = () => (
             <li className="">สินค้าและบริการ</li>
             <li className="">โปรโมชั่น</li>
             <li className="">ลูกค้าองค์กร</li>
-            <li className="pr-2">ติดต่อคาร์ไลล์</li>
+            <li className="pr-10">ติดต่อคาร์ไลล์</li>
           </ul>
         </div>
       </div>
